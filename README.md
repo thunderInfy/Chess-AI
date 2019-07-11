@@ -17,3 +17,4 @@ References:
   1) https://www.reddit.com/r/learnprogramming/comments/6hsx4i/best_way_to_learn_to_make_chess_ai/
   2) http://smecers.appspot.com/govs/Oldies/Sargon.htm
   3) https://www.youtube.com/watch?v=RbV3R6JrQWo&list=PLT4fkKwolLDF29Crww9u-StHqOxC-B3E7
+  4) Chess pieces template vector created by brgfx - www.freepik.com
