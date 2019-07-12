@@ -5,8 +5,14 @@ class Board{
   King[] kings;
   Queen[] queens;
   Knight[] knights;
+  int prev_i, prev_j;
+  
   
   Board(){
+    
+    prev_i = -1;
+    prev_j = -1;
+    
     rooks = new Rook[4];
     rooks[0] = new Rook(0,7,true);
     rooks[1] = new Rook(7,7,true);
@@ -60,6 +66,11 @@ class Board{
     }
     for(int i=0; i<pawns.length; i++){
       pawns[i].display();
+    }
+  }
+  void display_highlighted(){
+    if(ui.blocks[prev_i][prev_j].haspiece){
+      print("have to display possible moves here");
     }
   }
 }

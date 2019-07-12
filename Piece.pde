@@ -11,6 +11,7 @@ class Piece{
     this.colour = colour;
   }
   void display(){
+    ui.blocks[i][j].haspiece = true;
     image(my_img,x,y,Block.block_size,Block.block_size);
   }
 }

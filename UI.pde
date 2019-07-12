@@ -17,6 +17,7 @@ class UI{
     board = new Board();
   }
   void display(){
+    background(255);
     for(int i=0; i<n; i++){
       for(int j=0; j<n; j++){
         blocks[i][j].display();
@@ -26,10 +27,18 @@ class UI{
   }
   void block_set_background(Block b){
     if(b.colour){
-      image(white,b.x,b.y,Block.block_size,Block.block_size); 
+      if(b.highlight){
+      }
+      else{
+        image(white,b.x,b.y,Block.block_size,Block.block_size); 
+      }  
     }
     else{
-      image(black,b.x,b.y,Block.block_size,Block.block_size);
+      if(b.highlight){
+      }
+      else{
+        image(black,b.x,b.y,Block.block_size,Block.block_size);
+      }  
     }
   }
 }
