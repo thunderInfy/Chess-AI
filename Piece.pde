@@ -3,11 +3,12 @@ class Piece{
   int i,j,x,y;
   PImage my_img;
   boolean colour;
+  
   Piece(int i, int j, boolean colour){
     this.i = i;
     this.j = j;
-    x = i*Block.block_size;
-    y = j*Block.block_size;
+    x = (i-2)*Block.block_size;
+    y = (j-2)*Block.block_size;
     this.colour = colour;
   }
   void display(){

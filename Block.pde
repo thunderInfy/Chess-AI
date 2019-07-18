@@ -9,8 +9,8 @@ class Block{
   Block(int i, int j){
     this.i = i;
     this.j = j;
-    this.x = block_size*i;
-    this.y = block_size*j;
+    this.x = block_size*(i-2);
+    this.y = block_size*(j-2);
     this.haspiece = false;
     if((i+j)%2==0){
       colour = true;
@@ -21,7 +21,7 @@ class Block{
     highlight = false;
   }
   void display(){
-    ui.block_set_background(this);
+     ui.block_set_background(this);
   }
   void toggle(){
     highlight = highlight ^ true;

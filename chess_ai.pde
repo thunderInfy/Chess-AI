@@ -1,8 +1,9 @@
 UI ui;
 Board board;
+BoardVis vis;
 
 void settings(){
-  size((UI.n)*(Block.block_size), (UI.n)*(Block.block_size));
+  size((UI.n-4)*(Block.block_size), (UI.n-4)*(Block.block_size));
 }
 
 void setup(){
