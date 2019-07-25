@@ -3,6 +3,8 @@ This repository ultimately aims to build a Chess-AI.
 
 You would need Processing (click here to download it - https://processing.org/download/) to run this project in your system.
 
+![Chess AI screenshot](https://github.com/thunderInfy/Chess-AI/blob/master/images/chess_screenshot.png)
+
 Things done:
   - Created a basic UI for chess AI (coded our initial chess board).
 
