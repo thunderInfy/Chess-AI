@@ -10,3 +10,21 @@ Queen				1						27											27
 King 				1						8											 8
 
 Maximum number of distinct board positions possible in one move 			=			121
+
+TODO:
+1) 	Learn about dynamic arrays in Processing.
+2) 	Construct a dynamic array of boards indicating distinct board positions after one move.
+3) 	Introduce special rules like en passe, castling and modify King class to introduce the idea of check and checkmate.
+4) 	Generalise point 2 to multiple moves by passing initial board position as an argument and using the function recursively.
+5) 	Enable piece movement and verify for legal moves.
+6) 	Report an error and restrict piece movement in case of an invalid move.
+7) 	Create a class Reward which has a function which takes as input a board position and outputs a reward.
+8) 	Create a new class minimax.
+9) 	Choose a depth (initially 3 (less than a million possibilities on average)).
+10)	Find the best board position out of all the pruned possibilities using the above class Reward.
+11) Use the best board position to make a move for the AI.
+12) Optimize the minimax algorithm by introducing alpha-beta pruning.
+
+Future Work:
+1) Compare the chess AI created through minimax with a different approach like Deep Reinforcement Learning. 
+2) Create an AI for the game of Chain Reaction.

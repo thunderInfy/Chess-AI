@@ -14,8 +14,8 @@ void draw(){
 }
 void mouseClicked(){
   int i,j;
-  i = mouseX/Block.block_size;
-  j = mouseY/Block.block_size;
+  i = mouseX/Block.block_size+2;
+  j = mouseY/Block.block_size+2;
   
   if(board.prev_i==i && board.prev_j==j){
     //the same block is pressed again, thereby unhighlighting the block
