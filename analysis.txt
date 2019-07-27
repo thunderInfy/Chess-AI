@@ -1,0 +1,12 @@
+Let's visualize a chess board from a player's perspective (say white here). Assuming no piece loss and pieces as free as possible to move, we intend to achieve an upper bound on the number of distinct board positions possible after one move.
+
+Piece 				Quantity				#Max Possible Moves per piece 				#Total max possible moves
+			
+Pawn				8						2											16
+Rook				2						14											28
+Knight				2						8											16
+Bishop				2						13											26
+Queen				1						27											27
+King 				1						8											 8
+
+Maximum number of distinct board positions possible in one move 			=			121

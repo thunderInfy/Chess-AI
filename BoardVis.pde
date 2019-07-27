@@ -21,17 +21,22 @@ class BoardVis{
   byte[][] board_vis;
   BoardVis(){
     board_vis = new byte[12][12];
+    
+    //initializing all entries as invalid
     for(int i=0; i<12; i++){
       for(int j=0; j<12; j++){
         board_vis[i][j] = byte(unhex("F"));
       }
     }
+    
+    //marking all valid squares as empty
     for(int i=2; i<10; i++){
       for(int j=4; j<8; j++){
         board_vis[i][j] = byte(unhex("0"));
       }
     }
   }
+  
   void display_board_vis(){
     for(int i=0; i<12; i++){
       for(int j=0; j<12; j++){
